@@ -8,7 +8,7 @@ By default, it has a dark gray background based on the version created by Hamish
 
 ![Molokai Original](http://www.winterdom.com/weblog/content/binary/WindowsLiveWriter/MolokaiforVim_8602/molokai_original_small_3.png)
 
-256-Color terminals are also supported, though there are some differences with the Gui version. Only the dark gray background style is supported on terminal vim at this time.
+[256-Color](http://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg) terminals are also supported, though there are some differences with the Gui version. Only the dark gray background style is supported on terminal vim at this time.
 
 ## Installation
 
