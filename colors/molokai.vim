@@ -141,7 +141,7 @@ if &t_Co > 255
       hi CursorLineNr ctermfg=208               cterm=none
    else
       hi Normal       ctermfg=252 ctermbg=none
-      hi CursorLine               ctermbg=234   cterm=none
+      hi CursorLine               ctermbg=236   cterm=none
       hi CursorLineNr ctermfg=208               cterm=none
    endif
    hi Boolean         ctermfg=135
@@ -177,22 +177,22 @@ if &t_Co > 255
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
-   hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
+   hi MatchParen      ctermfg=none ctermbg=none cterm=underline
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=161
 
    " complete menu
-   hi Pmenu           ctermfg=81  ctermbg=16
-   hi PmenuSel        ctermfg=255 ctermbg=242
-   hi PmenuSbar                   ctermbg=232
-   hi PmenuThumb      ctermfg=81
+   hi Pmenu           ctermfg=250  ctermbg=240
+   hi PmenuSel        ctermfg=255  ctermbg=004
+   hi PmenuSbar                    ctermbg=240
+   hi PmenuThumb      ctermfg=250
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
    hi Repeat          ctermfg=161               cterm=bold
-   hi Search          ctermfg=0   ctermbg=222   cterm=NONE
+   hi Search          ctermfg=222 ctermbg=240   cterm=none
 
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=235
@@ -220,9 +220,13 @@ if &t_Co > 255
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
    hi VisualNOS                   ctermbg=238
-   hi Visual                      ctermbg=235
+   hi Visual                      ctermbg=236
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
+
+   hi TabLineFill                  ctermbg=242 cterm=none
+   hi TabLineSel      ctermfg=255  ctermbg=004 cterm=none
+   hi TabLine         ctermfg=252  ctermbg=242 cterm=none
 
    hi Comment         ctermfg=59
    hi CursorColumn                ctermbg=236
