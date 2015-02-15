@@ -141,7 +141,7 @@ if &t_Co > 255
       hi CursorLineNr ctermfg=208               cterm=none
    else
       hi Normal       ctermfg=252 ctermbg=none
-      hi CursorLine               ctermbg=236   cterm=none
+      hi CursorLine               ctermbg=233   cterm=none
       hi CursorLineNr ctermfg=208               cterm=none
    endif
    hi Boolean         ctermfg=135
@@ -192,7 +192,7 @@ if &t_Co > 255
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
    hi Repeat          ctermfg=161               cterm=bold
-   hi Search          ctermfg=222 ctermbg=240   cterm=none
+   hi Search          ctermfg=222 ctermbg=236   cterm=none
 
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=235
@@ -220,18 +220,18 @@ if &t_Co > 255
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
    hi VisualNOS                   ctermbg=238
-   hi Visual                      ctermbg=236
+   hi Visual                      ctermbg=235
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
-   hi TabLineFill                  ctermbg=242 cterm=none
-   hi TabLineSel      ctermfg=255  ctermbg=004 cterm=none
-   hi TabLine         ctermfg=252  ctermbg=242 cterm=none
+   hi TabLineFill                  ctermbg=236 cterm=none
+   hi TabLineSel      ctermfg=255  ctermbg=233 cterm=none
+   hi TabLine         ctermfg=252  ctermbg=236 cterm=none
 
    hi Comment         ctermfg=59
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
-   hi LineNr          ctermfg=250 ctermbg=236
+   hi LineNr          ctermfg=250 ctermbg=234
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
