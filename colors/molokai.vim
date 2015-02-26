@@ -194,6 +194,9 @@ if &t_Co > 255
    hi Repeat          ctermfg=161               cterm=bold
    hi Search          ctermfg=222 ctermbg=236   cterm=none
 
+   " ctrlp
+   hi CtrlPLinePre    ctermfg=236
+
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=235
    hi SpecialChar     ctermfg=161               cterm=bold
