@@ -197,6 +197,10 @@ if &t_Co > 255
    " ctrlp
    hi CtrlPLinePre    ctermfg=236
 
+   " indent guides
+   hi IndentGuidesOdd             ctermbg=234
+   hi IndentGuidesEven            ctermbg=233
+
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=235
    hi SpecialChar     ctermfg=161               cterm=bold
@@ -221,7 +225,7 @@ if &t_Co > 255
    hi Type            ctermfg=81                cterm=none
    hi Underlined      ctermfg=244               cterm=underline
 
-   hi VertSplit       ctermfg=234 ctermbg=232   cterm=none
+   hi VertSplit       ctermfg=234 ctermbg=233   cterm=none
    hi VisualNOS                   ctermbg=238
    hi Visual                      ctermbg=235
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
