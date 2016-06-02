@@ -232,13 +232,13 @@ if &t_Co > 255
    hi WildMenu        ctermfg=81  ctermbg=16
 
    hi TabLineFill                  ctermbg=236 cterm=none
-   hi TabLineSel      ctermfg=255  ctermbg=233 cterm=none
-   hi TabLine         ctermfg=252  ctermbg=236 cterm=none
+   hi TabLineSel      ctermfg=234  ctermbg=34 cterm=none
+   hi TabLine         ctermfg=249  ctermbg=236 cterm=none
 
    hi Comment         ctermfg=59
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
-   hi LineNr          ctermfg=250 ctermbg=234
+   hi LineNr          ctermfg=240 ctermbg=234
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
@@ -276,7 +276,7 @@ if &t_Co > 255
        hi Visual                      ctermbg=238
 
        hi Comment         ctermfg=244
-       hi LineNr          ctermfg=239 ctermbg=235
+       hi LineNr          ctermfg=240 ctermbg=235
        hi NonText         ctermfg=239
        hi SpecialKey      ctermfg=239
    endif
